@@ -1,29 +1,53 @@
+# Proyek Analisis Data Hotel Bookings
 
-# Analisis Hotel Booking
+## Table of Contents
+- [Pendahuluan](#pendahuluan)
+- [Langkah Analisis](#langkah-analisis)
+  - [Persiapan Data](#persiapan-data)
+  - [Eksplorasi Data](#eksplorasi-data)
+  - [Visualisasi Data](#visualisasi-data)
+- [Wawasan Utama](#wawasan-utama)
+- [Teknologi yang Digunakan](#teknologi-yang-digunakan)
+- [Kesimpulan dan Implikasi](#kesimpulan-dan-implikasi)
+- [Saran Pengembangan](#saran-pengembangan)
 
 ## Pendahuluan
-Proyek ini bertujuan untuk menganalisis data pemesanan hotel menggunakan Python. Analisis mencakup:
-- Membersihkan dan mempersiapkan data.
-- Menjawab pertanyaan berbasis data.
-- Membuat visualisasi yang bermanfaat.
+Proyek ini bertujuan untuk menganalisis dataset "Hotel Bookings" guna memahami pola pembatalan pemesanan berdasarkan jumlah permintaan khusus yang diajukan oleh pelanggan. Proyek ini melibatkan proses pembersihan data, eksplorasi, analisis, dan visualisasi untuk memberikan wawasan yang relevan bagi pemangku kepentingan.
 
-## Data
-Dataset yang digunakan adalah data pemesanan hotel yang mencakup berbagai atribut terkait pelanggan dan pesanan.
+Dataset yang digunakan mencakup variabel seperti:
+- **Total of Special Requests**: Jumlah permintaan khusus yang diajukan pelanggan.
+- **Is Canceled**: Status pembatalan (0 untuk "Not Canceled" dan 1 untuk "Canceled").
 
-## Metode
-- **Pengolahan Data**: Pandas digunakan untuk eksplorasi dan manipulasi data.
-- **Visualisasi Data**: Plotly digunakan untuk membuat grafik interaktif.
+Analisis ini dilakukan menggunakan Python, dengan hasil visualisasi dan laporan yang disusun untuk menggambarkan temuan utama.
 
-## Hasil
-Hasil analisis mencakup pola dan wawasan terkait pembatalan pesanan berdasarkan atribut seperti `total_of_special_requests`.
+## Langkah Analisis
+### Persiapan Data
+- Dataset diperiksa untuk mengetahui kualitas data seperti nilai hilang dan format yang tidak sesuai.
+- Data bersih mencakup dua kolom utama: `total_of_special_requests` dan `is_canceled`.
 
-## Cara Menjalankan
-1. Pastikan Python terinstal di sistem Anda.
-2. Install pustaka yang dibutuhkan:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Buka dan jalankan file notebook `.ipynb`.
+### Eksplorasi Data
+- Distribusi `total_of_special_requests` diperiksa untuk memahami frekuensi dari berbagai jumlah permintaan khusus.
+- Hubungan antara `total_of_special_requests` dan `is_canceled` dianalisis untuk menemukan pola pembatalan.
 
-## Lisensi
-Proyek ini dirilis di bawah lisensi MIT.
+### Visualisasi Data
+- **Distribusi Total of Special Requests**: Visualisasi bar chart menggambarkan jumlah pelanggan untuk setiap kategori permintaan khusus.
+- **Relasi dengan Pembatalan**: Grouped bar chart menunjukkan pola pembatalan berdasarkan jumlah permintaan khusus.
+
+## Wawasan Utama
+1. Pelanggan dengan 0 permintaan khusus memiliki proporsi pembatalan dan non-pembatalan yang seimbang.
+2. Dengan meningkatnya jumlah permintaan khusus (1 hingga 3), kecenderungan pembatalan menjadi lebih terfokus, dengan beberapa kategori hanya mencakup kasus pembatalan.
+3. Permintaan khusus yang lebih tinggi (3) lebih jarang terjadi dibandingkan dengan permintaan yang lebih rendah.
+
+## Teknologi yang Digunakan
+- **Python Libraries**:
+  - Pandas: Untuk manipulasi dan pembersihan data.
+  - Plotly: Untuk visualisasi data interaktif.
+
+## Kesimpulan dan Implikasi
+Analisis ini memberikan wawasan tentang bagaimana jumlah permintaan khusus memengaruhi pembatalan pemesanan. Pemahaman ini dapat membantu hotel dalam mengelola permintaan pelanggan dan memprediksi kemungkinan pembatalan.
+
+## Saran Pengembangan
+- Menambah variabel lain dari dataset (misalnya, durasi menginap, jenis kamar) untuk analisis yang lebih komprehensif.
+- Menggunakan model prediktif untuk memprediksi pembatalan berdasarkan beberapa fitur utama.
+- Mengintegrasikan analisis ini dengan data historis untuk tren waktu yang lebih baik.
+
