@@ -1,15 +1,15 @@
 # Proyek Analisis Data Hotel Bookings
 
-## Table of Contents
-- [Pendahuluan](#pendahuluan)
-- [Langkah Analisis](#langkah-analisis)
-  - [Persiapan Data](#persiapan-data)
-  - [Eksplorasi Data](#eksplorasi-data)
-  - [Visualisasi Data](#visualisasi-data)
-- [Wawasan Utama](#wawasan-utama)
-- [Teknologi yang Digunakan](#teknologi-yang-digunakan)
-- [Kesimpulan dan Implikasi](#kesimpulan-dan-implikasi)
-- [Saran Pengembangan](#saran-pengembangan)
+## DAFTAR ISI
+- [PENDAHULUAN ✅](#Pendahuluan)
+- [IMPORT LIBRARY ✅](#Import-Library)
+- [DOWNLOAD DATA ✅](#Download-data)
+- [LOAD DATASET ✅](#Load-Dataset)
+- [HANDLING MISSING VALUE ✅](#HANDLING-MISSING-VALUE)
+- [VISUALISASI DEMOGRAFIS TAMU ✅](#VISUALISASI-DEMOGRAFIS-TAMU)
+- [VISUALISASI POLA PEMESANAN HOTEL ✅](#VISUALISASI-POLA-PEMESANAN-HOTEL)
+- [ANALISIS LANJUTAN UNTUK MENGIDENTIFIKASI KOLOM-KOLOM YANG MEMPENGARUHI TERJADINYA PEMBATALAN PEMESANAN (ExtraTreesClassifier) ✅](#NALISIS-LANJUTAN)
+- [ANALISIS DAN VISUALISASI FAKTOR-FAKTOR YANG BERKONTRIBUSI TERHADAP PEMBATALAN PEMESANAN ✅](#ANALISIS-DAN-VISUALISASI)
 - [Team](#team)
 
 ## Pendahuluan
