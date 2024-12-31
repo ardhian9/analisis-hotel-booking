@@ -54,6 +54,6 @@ Analisis ini memberikan wawasan tentang bagaimana jumlah permintaan khusus memen
 
 ## Team
 NAMA KELOMPOK
-Rangga Saputra Hari Pratama (202110370311182)
-Muhammad Yusuf Rahmatullah (202110370311158)
-Ardian Ahmad Afifuddin (201910370311276)
+- Rangga Saputra Hari Pratama (202110370311182)
+- Muhammad Yusuf Rahmatullah (202110370311158)
+- Ardian Ahmad Afifuddin (201910370311276)
