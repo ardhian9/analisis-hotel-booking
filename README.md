@@ -10,6 +10,7 @@
 - [Teknologi yang Digunakan](#teknologi-yang-digunakan)
 - [Kesimpulan dan Implikasi](#kesimpulan-dan-implikasi)
 - [Saran Pengembangan](#saran-pengembangan)
+- [Team](#team)
 
 ## Pendahuluan
 Proyek ini bertujuan untuk menganalisis dataset "Hotel Bookings" guna memahami pola pembatalan pemesanan berdasarkan jumlah permintaan khusus yang diajukan oleh pelanggan. Proyek ini melibatkan proses pembersihan data, eksplorasi, analisis, dan visualisasi untuk memberikan wawasan yang relevan bagi pemangku kepentingan.
