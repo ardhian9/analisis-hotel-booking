@@ -152,7 +152,7 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
    - Menyajikan temuan utama dalam narasi yang terhubung.
 
 ## Hasil Utama
-##**Histogram Musim dengan Tingkat Pemesanan Tertinggi dalam Bulan**
+**Histogram Musim dengan Tingkat Pemesanan Tertinggi dalam Bulan**
 ![dataload](img/Musim_dengan_tingkat_pemesanan_tertinggi_dalam_Bulan.jpeg)
 
 Histogram ini digunakan untuk memvisualisasikan distribusi jumlah pemesanan hotel berdasarkan musim dalam satu tahun. Data dikelompokkan berdasarkan bulan dan dipetakan ke musim tertentu, seperti:
@@ -169,6 +169,42 @@ Histogram ini digunakan untuk memvisualisasikan distribusi jumlah pemesanan hote
 - Puncak Tertinggi: Menggambarkan musim dengan jumlah pemesanan terbanyak, yang mungkin mencerminkan musim liburan atau waktu perjalanan puncak.
 3. **Kesimpulan**:
 Jika histogram menunjukkan puncak pemesanan tertinggi pada musim panas, misalnya, itu menandakan tingginya aktivitas liburan di periode tersebut, sehingga manajemen hotel dapat mempersiapkan kapasitas kamar dan strategi harga yang optimal untuk musim tersebut.
+
+**Durasi rata-rata Pelanggan Menginap**
+1. **Rata-rata Durasi menginap: 3.40 Malam Berdasarkan keseluruhan Pelanggan**
+   ![dataload](img/durasipenginapan1.png)
+
+Histogram ini menunjukkan distribusi jumlah pelanggan berdasarkan durasi menginap mereka di hotel.
+- Sumbu X: Menunjukkan durasi menginap (dalam malam).
+- Sumbu Y: Menunjukkan jumlah pelanggan (frekuensi) yang menginap dengan durasi tertentu.
+- Statistik utama:
+  - Total data mencakup 74,745 pelanggan.
+  - Rata-rata durasi menginap adalah 3.40 malam, yang diwakili oleh garis putus-putus merah.
+  - Sebagian besar pelanggan memiliki durasi menginap pendek (0-5 malam), dengan jumlah yang terus menurun untuk durasi yang lebih lama.
+    
+3. **Rata-rata Durasi menginap Berdasarkan Tipe Pelanggan**
+   ![dataload](img/durasipenginapan2.png)
+
+Histogram ini membandingkan rata-rata durasi menginap antara tipe-tipe pelanggan.
+- Sumbu X: Menampilkan kategori tipe pelanggan (Contract, Group, Transient, Transient-Party).
+- Sumbu Y: Menampilkan rata-rata durasi menginap (dalam malam).
+- Statistik utama:
+  - Tipe pelanggan "Contract" memiliki durasi menginap tertinggi, dengan rata-rata 6.18 malam dan jumlah pelanggan 2,814 orang.
+  - Tipe "Group" memiliki durasi rata-rata terendah, meskipun hanya dengan jumlah pelanggan 512 orang.
+  - Tipe "Transient" (rata-rata 3+ malam) adalah kategori dengan jumlah pelanggan terbesar (52,714 orang).
+  - Tipe "Transient-Party" memiliki jumlah pelanggan yang cukup signifikan (18,705 orang) dengan rata-rata durasi di bawah 4 malam.
+    
+5. **Rata-rata Durasi menginap Berdasarkan Tipe Pelanggan dan hotel**
+   ![dataload](img/durasipenginapan3.png)
+
+Histogram ini membandingkan rata-rata durasi menginap antara tipe-tipe pelanggan.
+- Sumbu X: Menampilkan kategori tipe pelanggan (Contract, Group, Transient, Transient-Party).
+- Sumbu Y: Menampilkan rata-rata durasi menginap (dalam malam).
+- Statistik utama:
+  - Tipe pelanggan "Contract" memiliki durasi menginap tertinggi, dengan rata-rata 6.18 malam dan jumlah pelanggan 2,814 orang.
+  - Tipe "Group" memiliki durasi rata-rata terendah, meskipun hanya dengan jumlah pelanggan 512 orang.
+  - Tipe "Transient" (rata-rata 3+ malam) adalah kategori dengan jumlah pelanggan terbesar (52,714 orang).
+  - Tipe "Transient-Party" memiliki jumlah pelanggan yang cukup signifikan (18,705 orang) dengan rata-rata durasi di bawah 4 malam.
 
 ## Panduan Penggunaan
 1. Clone repository ini:
