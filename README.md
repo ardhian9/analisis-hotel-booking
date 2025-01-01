@@ -132,7 +132,7 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
 
 6. **Preferensi Khusus Tidak Selalu Terkait dengan Pembatalan**  
    - Pelanggan dengan permintaan khusus seperti kamar tertentu atau fasilitas tambahan (`special_requests`) tidak menunjukkan korelasi signifikan dengan tingkat pembatalan.
-   - 
+     
 ## Metodologi
 ![dataload](img/Storyboard_Data_Loading.png)
 1. **Persiapan Data**:
