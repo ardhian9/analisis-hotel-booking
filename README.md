@@ -167,7 +167,7 @@ Histogram ini digunakan untuk memvisualisasikan distribusi jumlah pemesanan hote
 - Sumbu X: Menunjukkan musim (Winter, Spring, Summer, Autumn).
 - Sumbu Y: Menunjukkan jumlah pemesanan pada setiap musim.
 - Puncak Tertinggi: Menggambarkan musim dengan jumlah pemesanan terbanyak, yang mungkin mencerminkan musim liburan atau waktu perjalanan puncak.
-**Kesimpulan**:
+3. **Kesimpulan**:
 Jika histogram menunjukkan puncak pemesanan tertinggi pada musim panas, misalnya, itu menandakan tingginya aktivitas liburan di periode tersebut, sehingga manajemen hotel dapat mempersiapkan kapasitas kamar dan strategi harga yang optimal untuk musim tersebut.
 
 ## Panduan Penggunaan
