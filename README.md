@@ -103,6 +103,30 @@ Berikut adalah package Python yang diperlukan untuk mereplikasi analisis:
 
 Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk memastikan pengalaman yang mulus bagi pengguna.
 
+## Wawasan Utama
+1. **Pola Pembatalan Reservasi**  
+   - **Sebanyak 37% dari total reservasi dibatalkan.**  
+     Analisis menunjukkan bahwa hampir sepertiga dari reservasi yang dilakukan tidak dilanjutkan, terutama pada musim ramai. Faktor-faktor seperti durasi pemesanan sebelumnya (`lead_time`) dan jenis pelanggan (`customer_type`) memainkan peran penting dalam pembatalan ini.
+
+2. **Hubungan Antara Total Biaya dan Pembatalan**  
+   - **Reservasi dengan biaya total tinggi lebih mungkin untuk dibatalkan.**  
+     Pelanggan yang menghadapi biaya penginapan lebih tinggi cenderung membatalkan reservasi mereka, terutama jika ada kenaikan mendadak dalam tarif harian rata-rata (`adr`).
+
+3. **Segmentasi Pelanggan Berdasarkan Tipe**  
+   - **Pelanggan 'Transient' mendominasi pembatalan.**  
+     Pelanggan yang melakukan perjalanan singkat atau tidak dalam grup menunjukkan tingkat pembatalan tertinggi dibandingkan dengan pelanggan `Group` atau `Contract`.
+
+4. **Durasi Menginap**  
+   - **Reservasi dengan durasi menginap yang sangat pendek (1-2 malam) memiliki tingkat pembatalan lebih rendah.**  
+     Sebaliknya, pelanggan yang memesan untuk menginap lebih lama (5+ malam) menunjukkan kecenderungan untuk membatalkan reservasi.
+
+5. **Waktu Puncak Reservasi dan Pembatalan**  
+   - **Pembatalan meningkat selama musim ramai (Juli hingga Agustus).**  
+     Waktu liburan seperti musim panas memperlihatkan peningkatan drastis baik dalam jumlah reservasi maupun tingkat pembatalan, menunjukkan tekanan pada manajemen hotel untuk mengelola kapasitas.
+
+6. **Preferensi Khusus Tidak Selalu Terkait dengan Pembatalan**  
+   - Pelanggan dengan permintaan khusus seperti kamar tertentu atau fasilitas tambahan (`special_requests`) tidak menunjukkan korelasi signifikan dengan tingkat pembatalan.
+   - 
 ## Metodologi
 1. **Persiapan Data**:
    - Pengimporan dan pemeriksaan data mentah.
