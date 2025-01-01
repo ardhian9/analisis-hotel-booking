@@ -177,7 +177,7 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
 - `requirements.txt`: Daftar package Python yang diperlukan.
 
 ## Lisensi
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+Proyek ini dilisensikan di bawah [colab License](https://colab.research.google.com/drive/1NfKpp7yDbGoieOECUcqZ9kI4kX-uRBAy).
 
 ## Nama Kelompok
 - Rangga Saputra Hari Pratama (202110370311182)
