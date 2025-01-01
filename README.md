@@ -37,7 +37,7 @@ Analisis ini memberikan manfaat berikut bagi konsumen:
 4. **Pengambilan Keputusan**: Data-driven insights yang mendukung keputusan strategis berbasis fakta.
 
 ## Dataset
-Dataset yang digunakan dalam proyek ini berasal dari data **Hotel Bookings**. Dataset ini dapat diunduh melalui [tautan ini](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/readme.md). Informasi lebih lanjut tersedia di deskripsi dataset tersebut.
+Dataset yang digunakan dalam proyek ini berasal dari data **Hotel Bookings**. Dataset ini dapat diunduh melalui [tautan ini](https://www.dropbox.com/sh/qwdaldzkp8yrqwj/AADTj_WQcuKA0bsEeCKU__98a?dl=1) dan Penjelasan Data bisa download [disini](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/readme.md). Informasi lebih lanjut tersedia di deskripsi dataset tersebut.
 
 1. **Tujuan Awal Data**: Dataset ini awalnya dikumpulkan untuk menganalisis tren reservasi di industri perhotelan.
 2. **Jumlah Observasi**: Terdapat 119,390 observasi.
