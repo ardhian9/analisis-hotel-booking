@@ -185,7 +185,7 @@ Hotel dapat merencanakan strategi pemasaran atau diskon untuk meningkatkan pemes
    ```
 
 ## Struktur Repository
-- `Proyek_Tugas_Akhir_Analisis_big_data_(182_158_276).ipynb [![Notebook](https://img.shields.io/badge/Notebook-gray)](#)[![Colab](https://img.shields.io/badge/Colab-green)](https://colab.research.google.com/drive/1NfKpp7yDbGoieOECUcqZ9kI4kX-uRBAy): Notebook utama dengan analisis dan visualisasi.
+- `Proyek_Tugas_Akhir_Analisis_big_data_(182_158_276).ipynb [![Notebook](https://img.shields.io/badge/Notebook-gray)](#)[![Colab](https://img.shields.io/badge/Colab-green)](https://colab.research.google.com/drive/1NfKpp7yDbGoieOECUcqZ9kI4kX-uRBAy?usp=sharing): Notebook utama dengan analisis dan visualisasi.
 - `README.md`: Pengantar dan penjelasan proyek.
 - `requirements.txt`: Daftar package Python yang diperlukan.
 
