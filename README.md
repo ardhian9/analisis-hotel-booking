@@ -1,9 +1,4 @@
 # Permintaan Pemesanan Hotel
-<div align="center">
-<a href="https://github.com/ardhian9/analisis-hotel-booking">
-        <img src="img/https://www.aeroglobe.xyz/wp-content/uploads/2024/10/images-5.jpg" width=250>
-</a>
-</div>
 
 ## Pendahuluan
 ### Pernyataan Masalah
