@@ -1,4 +1,5 @@
 # Permintaan Pemesanan Hotel
+      <img src="https://www.aeroglobe.xyz/wp-content/uploads/2024/10/images-5.jpg" width=250>
 
 ## Pendahuluan
 ### Pernyataan Masalah
