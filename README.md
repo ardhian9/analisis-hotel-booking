@@ -152,7 +152,7 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
    - Menyajikan temuan utama dalam narasi yang terhubung.
 
 ## Hasil Utama
-Histogram Musim dengan Tingkat Pemesanan Tertinggi dalam Bulan
+##**Histogram Musim dengan Tingkat Pemesanan Tertinggi dalam Bulan**##
 ![dataload](img/Musim_dengan_tingkat_pemesanan_tertinggi_dalam_Bulan.jpeg)
 
 Histogram ini digunakan untuk memvisualisasikan distribusi jumlah pemesanan hotel berdasarkan musim dalam satu tahun. Data dikelompokkan berdasarkan bulan dan dipetakan ke musim tertentu, seperti:
