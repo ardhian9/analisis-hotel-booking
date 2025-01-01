@@ -172,11 +172,7 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
    ```
 
 ## Struktur Repository
-- `Proyek_Tugas_Akhir_Analisis_big_data_(182_158_276).ipynb ## Semua kode tersedia di
-
-[![Notebook](https://img.shields.io/badge/Notebook-gray)](#)
-[![Colab](https://img.shields.io/badge/Colab-green)](https://colab.research.google.com)
-`: Notebook utama dengan analisis dan visualisasi.
+- `Proyek_Tugas_Akhir_Analisis_big_data_(182_158_276).ipynb [![Notebook](https://img.shields.io/badge/Notebook-gray)](#)[![Colab](https://img.shields.io/badge/Colab-green)](https://colab.research.google.com): Notebook utama dengan analisis dan visualisasi.
 - `README.md`: Pengantar dan penjelasan proyek.
 - `requirements.txt`: Daftar package Python yang diperlukan.
 
