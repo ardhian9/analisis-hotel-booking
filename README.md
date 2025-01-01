@@ -80,8 +80,8 @@ Dataset yang digunakan dalam proyek ini berasal dari data **Hotel Bookings**. Da
 - Variabel seperti `meal` memerlukan normalisasi karena adanya variasi ejaan.
 - Variabel `adr` (average daily rate) memerlukan validasi untuk mengidentifikasi anomali.
 
-
 ### Langkah Pembersihan Data
+![dataclean](img/Storyboard_Data_Cleaning.png)
 1. Mengatasi nilai yang hilang:
    - Nilai hilang pada kolom `children` diisi dengan nilai median.
 2. Normalisasi teks:
@@ -149,7 +149,7 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
    - Visualisasi data yang informatif dan terstruktur.
 
 4. **Rangkuman**:
-   - Menyajikan temuan utama dalam narasi yang koheren.
+   - Menyajikan temuan utama dalam narasi yang terhubung.
 
 ## Hasil Utama
 1. Analisis pola reservasi berdasarkan waktu.
