@@ -1,2 +1,6 @@
 pandas
+numpy
+matplotlib
+seaborn
 plotly
+scikit-learn (opsional untuk analisis lanjutan)
