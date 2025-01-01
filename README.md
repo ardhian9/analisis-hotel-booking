@@ -1,7 +1,7 @@
 # Permintaan Pemesanan Hotel
 <div align="center">
 <a href="https://github.com/ardhian9/pemesanan-hotel">
-        <img src="img/Hotel-booking.jpg" alt="HotelBooking" width=250>
+        <img src="img/Hotel-booking.jpg" alt="HotelBooking" width=300>
 </a>
 </div>
 
