@@ -152,6 +152,21 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
    - Menyajikan temuan utama dalam narasi yang terhubung.
 
 ## Hasil Utama
+![dataload](img/Musim dengan tingkat pemesanan tertinggi dalam Bulan.jpeg)
+Histogram Musim dengan Tingkat Pemesanan Tertinggi dalam Bulan
+
+Histogram ini digunakan untuk memvisualisasikan distribusi jumlah pemesanan hotel berdasarkan musim dalam satu tahun. Data dikelompokkan berdasarkan bulan dan dipetakan ke musim tertentu, seperti:
+- Winter (Musim Dingin) - Desember, Januari, Februari
+- Spring (Musim Semi) - Maret, April, Mei
+- Summer (Musim Panas) - Juni, Juli, Agustus
+- Autumn (Musim Gugur) - September, Oktober, November
+1. Tujuan Analisis:
+- Mengidentifikasi musim dengan permintaan tertinggi.
+- Memberikan wawasan tentang tren pemesanan musiman yang dapat digunakan untuk strategi pemasaran dan manajemen inventaris hotel.
+2. Interpretasi Grafik:
+- Sumbu X: Menunjukkan musim (Winter, Spring, Summer, Autumn).
+- Sumbu Y: Menunjukkan jumlah pemesanan pada setiap musim.
+- Puncak Tertinggi: Menggambarkan musim dengan jumlah pemesanan terbanyak, yang mungkin mencerminkan musim liburan atau waktu perjalanan puncak.
 
 ## Panduan Penggunaan
 1. Clone repository ini:
