@@ -1,4 +1,4 @@
-# Proyek Akhir Analisis Big Data
+# Permintaan Pemesanan Hotel
 
 ## Pendahuluan
 ### Pernyataan Masalah
@@ -37,8 +37,39 @@ Dataset yang digunakan dalam proyek ini berasal dari data **Hotel Bookings**. Da
 - **Tujuan Awal Data**: Dataset ini awalnya dikumpulkan untuk menganalisis tren reservasi di industri perhotelan.
 - **Jumlah Observasi**: Terdapat 119,390 observasi.
 - **Jumlah Variabel**: Dataset memiliki 32 variabel utama.
-- **Fitur Utama**:
-  - Contoh variabel: `arrival_date`, `lead_time`, `is_canceled`, `customer_type`, dll.
+- **Fitur**:
+- hotel - Jenis hotel (H1 = Resort Hotel, H2 = City Hotel).
+- is_canceled - Menunjukkan apakah reservasi dibatalkan (1) atau tidak (0).
+- lead_time - Jumlah hari antara tanggal pemesanan masuk dan tanggal kedatangan.
+- arrival_date_year - Tahun kedatangan.
+- arrival_date_month - Bulan kedatangan.
+- arrival_date_week_number - Nomor minggu dalam tahun untuk tanggal kedatangan.
+- arrival_date_day_of_month - Tanggal kedatangan dalam bulan.
+- stays_in_weekend_nights - Jumlah malam akhir pekan (Sabtu atau Minggu) yang * * dipesan atau diinapi.
+- stays_in_week_nights - Jumlah malam kerja (Senin hingga Jumat) yang dipesan atau diinapi.
+- adults - Jumlah orang dewasa.
+- children - Jumlah anak-anak.
+- babies - Jumlah bayi.
+- meal - Jenis paket makan yang dipesan: Undefined/SC (tanpa paket makan), BB (Bed & Breakfast), HB (Half board), FB (Full board).
+- country - Negara asal, menggunakan format ISO 3155–3:2013.
+- market_segment - Segmen pasar: "TA" (Travel Agents), "TO" (Tour Operators).
+- distribution_channel - Saluran distribusi pemesanan: "TA" (Travel Agents), "TO" (Tour Operators).
+- is_repeated_guest - Menunjukkan apakah tamu merupakan tamu yang sama (1) atau bukan (0).
+- previous_cancellations - Jumlah pemesanan sebelumnya yang dibatalkan oleh pelanggan.
+- previous_bookings_not_canceled - Jumlah pemesanan sebelumnya yang tidak dibatalkan oleh pelanggan.
+- reserved_room_type - Kode jenis kamar yang dipesan (dianonimkan).
+- assigned_room_type - Kode jenis kamar yang diberikan, yang mungkin berbeda dengan kamar yang dipesan (dianonimkan).
+- booking_changes - Jumlah perubahan yang dilakukan pada pemesanan sebelum check-in atau pembatalan.
+- deposit_type - Jenis deposit: No Deposit (tanpa deposit), Non Refund (deposit penuh), Refundable (deposit sebagian).
+- agent - ID agen perjalanan yang melakukan pemesanan (dianonimkan).
+- company - ID perusahaan/lembaga yang bertanggung jawab atas pemesanan atau pembayaran (dianonimkan).
+- days_in_waiting_list - Jumlah hari pemesanan berada di daftar tunggu sebelum dikonfirmasi.
+- customer_type - Jenis pemesanan: Contract (terkait kontrak), Group (terkait grup), Transient (tidak terkait grup atau kontrak), Transient-party (terhubung dengan pemesanan transient lainnya).
+- adr - Rata-rata tarif harian, dihitung dengan membagi total transaksi penginapan dengan total malam menginap.
+- required_car_parking_spaces - Jumlah tempat parkir mobil yang diminta oleh pelanggan.
+- total_of_special_requests - Jumlah permintaan khusus (misalnya, tempat tidur twin atau lantai atas).
+- reservation_status - Status reservasi: Canceled (dibatalkan), Check-Out (pelanggan sudah check-out), No-Show (pelanggan tidak check-in).
+- reservation_status_date - Tanggal saat status terakhir reservasi ditetapkan.
 - **Kekhasan Data**:
   - Terdapat nilai yang hilang dalam beberapa kolom seperti `children`.
   - Variabel seperti `meal` memerlukan normalisasi karena adanya variasi ejaan.
@@ -98,7 +129,7 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
 ## Panduan Penggunaan
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/username/proyek_akhir_big_data.git
+   git clone https://github.com/username/analisis_hotel_booking.git
    ```
 2. Install package yang diperlukan:
    ```bash
@@ -114,8 +145,10 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
 - `README.md`: Pengantar dan penjelasan proyek.
 - `requirements.txt`: Daftar package Python yang diperlukan.
 
-## Kontribusi
-Kontribusi terbuka untuk meningkatkan analisis ini. Silakan buat pull request atau buka issue untuk diskusi lebih lanjut.
-
 ## Lisensi
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+
+## Nama Kelompok
+- Rangga Saputra Hari Pratama (202110370311182)
+- Muhammad Yusuf Rahmatullah (202110370311158)
+- Ardian Ahmad Afifuddin (201910370311276)
