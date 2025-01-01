@@ -50,7 +50,7 @@ Dataset yang digunakan dalam proyek ini berasal dari data **Hotel Bookings**. Da
 - arrival_date_month - Bulan kedatangan.
 - arrival_date_week_number - Nomor minggu dalam tahun untuk tanggal kedatangan.
 - arrival_date_day_of_month - Tanggal kedatangan dalam bulan.
-- stays_in_weekend_nights - Jumlah malam akhir pekan (Sabtu atau Minggu) yang * * dipesan atau diinapi.
+- stays_in_weekend_nights - Jumlah malam akhir pekan (Sabtu atau Minggu) yang dipesan atau diinapi.
 - stays_in_week_nights - Jumlah malam kerja (Senin hingga Jumat) yang dipesan atau diinapi.
 - adults - Jumlah orang dewasa.
 - children - Jumlah anak-anak.
@@ -152,7 +152,7 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
    - Menyajikan temuan utama dalam narasi yang terhubung.
 
 ## Hasil Utama
-##**Histogram Musim dengan Tingkat Pemesanan Tertinggi dalam Bulan**##
+##**Histogram Musim dengan Tingkat Pemesanan Tertinggi dalam Bulan**
 ![dataload](img/Musim_dengan_tingkat_pemesanan_tertinggi_dalam_Bulan.jpeg)
 
 Histogram ini digunakan untuk memvisualisasikan distribusi jumlah pemesanan hotel berdasarkan musim dalam satu tahun. Data dikelompokkan berdasarkan bulan dan dipetakan ke musim tertentu, seperti:
