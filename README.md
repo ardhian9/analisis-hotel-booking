@@ -80,6 +80,7 @@ Dataset yang digunakan dalam proyek ini berasal dari data **Hotel Bookings**. Da
 - Variabel seperti `meal` memerlukan normalisasi karena adanya variasi ejaan.
 - Variabel `adr` (average daily rate) memerlukan validasi untuk mengidentifikasi anomali.
 
+
 ### Langkah Pembersihan Data
 1. Mengatasi nilai yang hilang:
    - Nilai hilang pada kolom `children` diisi dengan nilai median.
@@ -133,6 +134,7 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
    - Pelanggan dengan permintaan khusus seperti kamar tertentu atau fasilitas tambahan (`special_requests`) tidak menunjukkan korelasi signifikan dengan tingkat pembatalan.
    - 
 ## Metodologi
+![dataload](img/Storyboard_Data_Loading.png)
 1. **Persiapan Data**:
    - Pengimporan dan pemeriksaan data mentah.
    - Pembersihan data, termasuk mengatasi nilai yang hilang dan normalisasi.
@@ -158,7 +160,7 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
 ## Panduan Penggunaan
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/username/analisis_hotel_booking.git
+   git clone https://github.com/username/pemesanan-hotel.git
    ```
 2. Install package yang diperlukan:
    ```bash
