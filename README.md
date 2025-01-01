@@ -34,10 +34,10 @@ Analisis ini memberikan manfaat berikut bagi konsumen:
 ## Dataset
 Dataset yang digunakan dalam proyek ini berasal dari data **Hotel Bookings**. Dataset ini dapat diunduh melalui [tautan ini](https://www.kaggle.com/jessemostipak/hotel-booking-demand). Informasi lebih lanjut tersedia di deskripsi dataset tersebut.
 
-- **Tujuan Awal Data**: Dataset ini awalnya dikumpulkan untuk menganalisis tren reservasi di industri perhotelan.
-- **Jumlah Observasi**: Terdapat 119,390 observasi.
-- **Jumlah Variabel**: Dataset memiliki 32 variabel utama.
-- **Fitur**:
+**Tujuan Awal Data**: Dataset ini awalnya dikumpulkan untuk menganalisis tren reservasi di industri perhotelan.
+**Jumlah Observasi**: Terdapat 119,390 observasi.
+**Jumlah Variabel**: Dataset memiliki 32 variabel utama.
+**Fitur**:
 - hotel - Jenis hotel (H1 = Resort Hotel, H2 = City Hotel).
 - is_canceled - Menunjukkan apakah reservasi dibatalkan (1) atau tidak (0).
 - lead_time - Jumlah hari antara tanggal pemesanan masuk dan tanggal kedatangan.
@@ -70,10 +70,10 @@ Dataset yang digunakan dalam proyek ini berasal dari data **Hotel Bookings**. Da
 - total_of_special_requests - Jumlah permintaan khusus (misalnya, tempat tidur twin atau lantai atas).
 - reservation_status - Status reservasi: Canceled (dibatalkan), Check-Out (pelanggan sudah check-out), No-Show (pelanggan tidak check-in).
 - reservation_status_date - Tanggal saat status terakhir reservasi ditetapkan.
-- **Kekhasan Data**:
-  - Terdapat nilai yang hilang dalam beberapa kolom seperti `children`.
-  - Variabel seperti `meal` memerlukan normalisasi karena adanya variasi ejaan.
-  - Variabel `adr` (average daily rate) memerlukan validasi untuk mengidentifikasi anomali.
+**Kekhasan Data**:
+- Terdapat nilai yang hilang dalam beberapa kolom seperti `children`.
+- Variabel seperti `meal` memerlukan normalisasi karena adanya variasi ejaan.
+- Variabel `adr` (average daily rate) memerlukan validasi untuk mengidentifikasi anomali.
 
 ### Langkah Pembersihan Data
 1. Mengatasi nilai yang hilang:
