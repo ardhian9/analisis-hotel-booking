@@ -157,6 +157,24 @@ Pesan atau peringatan yang muncul saat memuat package telah dihilangkan untuk me
 3. Segmentasi pelanggan berdasarkan karakteristik reservasi.
 4. Visualisasi interaktif menggunakan `plotly` untuk memberikan wawasan yang lebih baik.
 
+Histogram ini berisi analisis data pemesanan hotel, termasuk pembersihan data, analisis demografis, pola pemesanan, dan visualisasi berbagai faktor yang memengaruhi pembatalan pesanan. Untuk membuat histogram, kita perlu memastikan data yang relevan telah dimuat. Berdasarkan kode di ipynb, dataset diakses melalui variabel df. Saya akan melanjutkan dengan membaca dataset yang digunakan dan membuat histogram dari salah satu kolom yang relevan.
+​![histogram](img/histogram.png)
+Histogram di atas menggambarkan distribusi lead time (waktu tunggu) sebelum pemesanan hotel dilakukan. Berikut adalah penjelasannya:
+
+1. Sumbu X (Lead Time):
+Menunjukkan jumlah hari antara waktu pemesanan dan tanggal kedatangan tamu di hotel.
+Data dibagi menjadi beberapa rentang (bins), misalnya 0–20, 20–40, dan seterusnya.
+2. Sumbu Y (Frekuensi):
+Menunjukkan jumlah pemesanan yang termasuk dalam setiap rentang lead time.
+Misalnya, ada lebih banyak pemesanan dalam rentang 0–20 hari dibandingkan dengan 100–120 hari.
+3. Pola Distribusi:
+Histogram ini memiliki puncak frekuensi di bagian tengah (sekitar 50–70 hari).
+Ini menunjukkan bahwa sebagian besar pemesanan dilakukan 50–70 hari sebelum kedatangan.
+Ada juga pemesanan yang dilakukan jauh sebelumnya (lebih dari 100 hari) atau mendadak (kurang dari 20 hari).
+4. Interpretasi Bisnis:
+Hotel dapat merencanakan strategi pemasaran atau diskon untuk meningkatkan pemesanan di luar periode puncak lead time.
+Perlu analisis lebih lanjut untuk mengetahui apakah lead time yang panjang berkaitan dengan pembatalan lebih tinggi atau lebih rendah.
+
 ## Panduan Penggunaan
 1. Clone repository ini:
    ```bash
